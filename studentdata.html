@@ -1,0 +1,46 @@
+<html>
+  <head>
+     <title>Studentpage</title>
+     <link rel=stylesheet href=sr.css>
+     <script src="validate.js"></script>
+  </head>
+  <body>
+      <h1>Student data</h1>
+      <form name="StudentRegistrationForm" onsubmit="return(validate())">
+      Name:       
+      <input type="text" name="studentname" id="studentname"><br><br>
+      Father Name:
+      <input type="text" name="fathername" id="fathername"><br><br>
+      DateofBirth:
+      <input type="text" name="DOB" id="DOB"><br><br>
+      Gender:
+      <input type="text" name="gender" id="gender"><br><br>
+      Highest Qualification:<br>
+      <input type="radio" name="highdegree" checked>PG Course 
+      <input type="radio" name="highdegree" >UG Course
+      <input type="radio" name="highdegree" >Intermediate
+      <input type="radio" name="highdegree" >Secondary Education<br><br>
+      University: 
+      <input type="text" name="university" id="university"><br><br>
+      Grade:      
+      <input type="text" name="grade" id="grade"><br><br>
+      Technical Skills:<br>
+      <input type="checkbox" name="skill1">.Net<br>
+      <input type="checkbox" name="skill2">JavaScript<br>
+      <input type="checkbox" name="skill3">Java<br>
+      <input type="checkbox" name="skill4">Python<br>
+      <input type="checkbox" name="skill5">C<br>
+      Address:<br>
+      <input type="text" name="address" id="address"><br><br>
+      Emailid:
+      <input type="text" name="emailid" id="emailid"><br><br>
+      Mobile No:
+      <input type="text" name="phoneno" id="phoneno"><br><br>
+      Date:
+      <input type="text" name="date"><br><br>
+      Place:
+      <input type="text" name="place"><br><br>
+      <input type="submit" value="Submit">
+      </form>
+  </body>
+</html>
