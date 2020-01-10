@@ -6,9 +6,18 @@
   </head>
   <body>
       <h1>Student data</h1>
-      <form name="StudentRegistrationForm" onsubmit="return(validate())">
+      <form name="StudentRegistrationForm" onsubmit="return(validate())" style="
+    /* align-items: center; */
+    text-align: center;
+">
       Name:       
-      <input type="text" name="studentname" id="studentname"><br><br>
+      <input type="text" name="studentname" id="studentname" style="
+    /* padding: 10px; */
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 31px;
+    background-color: bisque;
+"><br><br>
       Father Name:
       <input type="text" name="fathername" id="fathername"><br><br>
       DateofBirth:
@@ -16,14 +25,19 @@
       Gender:
       <input type="text" name="gender" id="gender"><br><br>
       Highest Qualification:<br>
-      <input type="radio" name="highdegree" checked>PG Course 
-      <input type="radio" name="highdegree" >UG Course
-      <input type="radio" name="highdegree" >Intermediate
-      <input type="radio" name="highdegree" >Secondary Education<br><br>
-      University: 
-      <input type="text" name="university" id="university"><br><br>
+      <input type="radio" name="highdegree" checked="">PG Course 
+      <input type="radio" name="highdegree">UG Course
+      <input type="radio" name="highdegree">Intermediate
+      <input type="radio" name="highdegree">Secondary Education<br><br>
+<span style="text-align: left;">University: </span>
+
+      <input type="text" name="university" id="university" style="
+    padding-right: 20px;
+"><br><br>
       Grade:      
-      <input type="text" name="grade" id="grade"><br><br>
+      <input type="text" name="grade" id="grade" style="
+    text-align: center;
+"><br><br>
       Technical Skills:<br>
       <input type="checkbox" name="skill1">.Net<br>
       <input type="checkbox" name="skill2">JavaScript<br>
@@ -41,6 +55,7 @@
       Place:
       <input type="text" name="place"><br><br>
       <input type="submit" value="Submit">
+     
       </form>
   </body>
 </html>
